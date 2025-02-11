@@ -1,4 +1,6 @@
-# Bayesian Hit Prediction: Nirvana Discography Case Study 🎵
+# Bayesian Hit Prediction: Nirvana Discography Case Study
+
+![Nirvana Picture](https://wallpapersok.com/images/hd/iconic-nirvana-band-in-the-glory-days-xevpxnmkenzkqhse.jpg)
 
 This case study explores the use of Bayesian logistic regression to predict hit songs based on the audio features of Nirvana's discography. By analyzing tracks from Nirvana's iconic albums and extracting data from Spotify, the model aims to identify key attributes that contribute to the success of a song.
 
@@ -19,6 +21,8 @@ The dataset contains audio features for songs from Nirvana's studio albums:
 - **Valence**: The positiveness conveyed by a track (0.0 to 1.0 scale).
 - **Speechiness**, **Acousticness**, **Loudness**, and more.
 
+![Danceability vs Hit](https://github.com/banacchini/NirvanaHitPrediction/blob/main/danceabilityPlot.png)
+
 ### Target Variable:
 - **Hit or Not**: A song is classified as a "hit" if it has more than **150 million streams** on Spotify.
 
@@ -36,6 +40,8 @@ The dataset contains audio features for songs from Nirvana's studio albums:
    The model was applied to predict the likelihood of two iconic grunge songs becoming hits:
    - **Nirvana - Smells Like Teen Spirit**
    - **Soundgarden - Black Hole Sun**
+
+![Smells Like Teen Spirit Hit Probability Histogram](https://github.com/banacchini/NirvanaHitPrediction/blob/main/smellsLikeTeenSpiritHistogram.png)
 
 ## Results and Conclusions
 ### Key Findings:
